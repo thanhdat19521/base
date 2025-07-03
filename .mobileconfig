@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>PayloadContent</key>
+ <array>
+  <dict>
+   <key>DNSSettings</key>
+   <dict>
+    <key>SupplementalMatchDomains</key>
+    <array>
+     <string>dev.vietnamnet.vn</string>
+    </array>
+    <key>SupplementalMatchDomainUseOnly</key>
+    <true/>
+    <key>ServerAddresses</key>
+    <array>
+     <string>192.168.0.213</string>
+    </array>
+   </dict>
+   <key>PayloadDescription</key>
+   <string>Custom DNS Mapping</string>
+   <key>PayloadDisplayName</key>
+   <string>Custom Hosts for dev.vietnamnet.vn</string>
+   <key>PayloadIdentifier</key>
+   <string>com.custom.dns.devvnn</string>
+   <key>PayloadType</key>
+   <string>com.apple.dnsSettings.managed</string>
+   <key>PayloadUUID</key>
+   <string>7A74C144-B930-4B10-A5A0-ABCDEF123456</string>
+   <key>PayloadVersion</key>
+   <integer>1</integer>
+  </dict>
+ </array>
+ <key>PayloadDisplayName</key>
+ <string>Custom Hosts Mapping</string>
+ <key>PayloadIdentifier</key>
+ <string>com.custom.hosts</string>
+ <key>PayloadRemovalDisallowed</key>
+ <false/>
+ <key>PayloadType</key>
+ <string>Configuration</string>
+ <key>PayloadUUID</key>
+ <string>29C8EFD3-B1EF-4A3A-BFA0-123456ABCDEF</string>
+ <key>PayloadVersion</key>
+ <integer>1</integer>
+</dict>
+</plist>
